@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"></android.support.v4.view.ViewPager>
+    
+    <LinearLayout 
+        android:id="@+id/linearlayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+        <Button
+            android:id="@+id/back"
+            android:text="返回"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Button>
+        
+    </LinearLayout>
+        
+</FrameLayout>
